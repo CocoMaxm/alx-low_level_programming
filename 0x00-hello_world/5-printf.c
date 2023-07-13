@@ -1,5 +1,7 @@
 #include <stdio.h>
-/*Hello, printf*/
+/*Hello, printf(instead of puts)
+ *returning zero afterwards
+ * */
 
 int main(void)
 {
