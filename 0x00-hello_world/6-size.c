@@ -1,18 +1,12 @@
 #include <stdio.h>
-
+/*Size is not grandeur, and territory does not make a nation*/
 int main(void)
 {
-	int m;
-	char a;
-	float x;
-	long int w;
-	long long int e;
-
-	printf("Size of a char: %d byte(s)\n", sizeof(a));
-	printf("Size of an int: %d byte(s)\n", sizeof(m));
-	printf("Size of a long int: %d byte(s)\n", sizeof(w));
-	printf("Size of a long long int: %d byte(s)\n", sizeof(e));
-	printf("Size of a float: %d byte(s)\n", sizeof(x));
+	printf("Size of a char: %c byte(s)\n", sizeof(char));
+	printf("Size of an int: %d byte(s)\n", sizeof(int));
+	printf("Size of a long int: %ld byte(s)\n", sizeof(long int));
+	printf("Size of a long long int: %lld byte(s)\n", sizeof(long long int));
+	printf("Size of a float: %f byte(s)\n", sizeof(float));
 	return (0);
 
 
