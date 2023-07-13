@@ -2,7 +2,7 @@
 /*Hello, puts*/
 int main(void)
 {
-	/*puts acts like printf*/
+	//puts command
 	puts("\"Programming is like building a multilingual puzzle\n");
 	return (0);
 }
