@@ -12,7 +12,7 @@ int main(void)
 		putchar(letter);
 	}
 	/*Print a new line*/
-	putchar('\n')
+	putchar('\n');
 
 	return (0);
 }
