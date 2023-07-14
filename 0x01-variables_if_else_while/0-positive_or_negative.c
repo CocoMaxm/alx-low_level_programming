@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-	int n = 10;
+	int n = 98;
 
 	if (n > 0)
 	{
