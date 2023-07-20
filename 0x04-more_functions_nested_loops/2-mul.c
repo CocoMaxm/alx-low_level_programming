@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * mul - multiplication
  * @int a: first value
