@@ -16,7 +16,7 @@ void rev_string(char *s)
 	{
 		c++;
 	}
-	for (i = 1; i < c; i++)
+	for (i = 0; i < c; i++)
 	{
 		c--;
 		swap = s[i];
