@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*
+/**
  * _strlen - returns length of a string
  * @s: value whose length is calculated
  *
@@ -10,7 +10,7 @@ int _strlen(char *s)
 {
 	int c = 0;
 	
-	if (; *s != '/0'; s++)
+	for (; *s != '\0'; s++)
 	{
 		c++;
 	}
