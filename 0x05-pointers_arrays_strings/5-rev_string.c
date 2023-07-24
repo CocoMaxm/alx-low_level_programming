@@ -8,9 +8,9 @@
   */
 void rev_string(char *s)
 {
+	int swap = s[0];
+	char c = 0;
 	int i;
-	char swap = s[0];
-	int c = 0;
 
 	while (s[c] != '\0')
 	{
