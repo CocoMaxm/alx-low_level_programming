@@ -8,24 +8,19 @@
   */
 void rev_string(char *s)
 {
-	int i, c, k;
-	char *a, swap;
-
-	a = s;
+	int i;
+	char swap = s[0];
+	int c = 0;
 
 	while (s[c] != '\0')
 	{
 		c++;
 	}
-	for (k = 1; k < c; k++)
+	for (i = 1; i < c; i++)
 	{
-		a++;
-		for (i = 0; i < (c / 2); i++)
-		{
-			swap = s[i];
-			s[i] = *a;
-			*a = swap;
-			a--;
-		}
+		c--;
+		swap = s[i];
+		s[i] = s[c];
+		s[c] = swap;
 	}
 }
