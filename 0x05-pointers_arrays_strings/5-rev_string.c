@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
- * rev_string - reverses a string
- * @s: the string
- *
- * Return: always 0
- */
+  * rev_string - Reverses a string
+  * @s: The string to be modified
+  *
+  * Return: void
+  */
 void rev_string(char *s)
 {
 	int i, c, k;
-	char *a, swap;
+	char *a, aux;
 
 	a = s;
 
@@ -25,9 +25,9 @@ void rev_string(char *s)
 
 	for (i = 0; i < (c / 2); i++)
 	{
-		swap = s[i];
+		aux = s[i];
 		s[i] = *a;
-		*a = swap;
+		*a = aux;
 		a--;
 	}
 }
